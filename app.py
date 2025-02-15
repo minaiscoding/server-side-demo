@@ -54,7 +54,7 @@ def save_to_db(image_name, product_counts):
 # 📌 Route principale (Test API)
 @app.route("/", methods=["GET"])
 def home():
-    return jsonify({"message": "Flask API is running 🚀"}), 200
+    return jsonify({"message": "Flask API is running "}), 200
 
 # 📌 Endpoint API pour le comptage des produits
 @app.route("/count_products", methods=["POST"])
